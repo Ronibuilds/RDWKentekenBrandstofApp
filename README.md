@@ -2,8 +2,6 @@
 
 A user-friendly desktop application to extract Dutch license plates (kentekens) from PDF/Word documents, look up their fuel type using the official RDW Open Data API, and export the results in a stylish Excel report. The tool features a modern dark mode interface.
 
-![Screenshot](screenshot.png) <!-- Add a screenshot for more appeal! -->
-
 ---
 
 ## Features
