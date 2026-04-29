@@ -31,9 +31,7 @@ A user-friendly desktop application to extract Dutch license plates (kentekens) 
 2. **Install required dependencies:**
 
    ```bash
-   pip install -r requirements.txt
-   ```
-   If `requirements.txt` does not exist, these are the core dependencies:
+   Dependencies:
 
    ```
    requests
@@ -84,11 +82,6 @@ For more info, click "Help" in the app.
 - Log files are stored in the `logs` directory.
 - If something goes wrong, you’ll see an error message and details are available in the logs.
 
----
-
-## Author
-
-By [your name or GitHub username here]
 
 ---
 
