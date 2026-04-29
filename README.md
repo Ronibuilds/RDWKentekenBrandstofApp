@@ -1,6 +1,6 @@
 # RDW Kenteken Brandstof Checker
 
-A user-friendly desktop application to extract Dutch license plates (kentekens) from PDF/Word documents, look up their fuel type using the official RDW Open Data API, and export the results in a stylish Excel report. The tool features a modern dark mode interface.
+A user-friendly desktop application to extract Dutch license plates (kentekens) from PDF/Word documents, look up their fuel type using the official RDW Open Data API, and export the results in a structured Excel report.
 
 ---
 
@@ -28,19 +28,17 @@ A user-friendly desktop application to extract Dutch license plates (kentekens) 
 
 2. **Install required dependencies:**
 
-   ```bash
    Dependencies:
 
-   ```
-   requests
-   pandas
-   openpyxl
-   docx2txt
-   pymupdf
-   pillow
-   ```
+   - requests
+   - pandas
+   - openpyxl
+   - docx2txt
+   - pymupdf
+   - pillow
 
-   Install with:
+   Install all dependencies with:
+
    ```bash
    pip install requests pandas openpyxl docx2txt pymupdf pillow
    ```
@@ -79,7 +77,6 @@ For more info, click "Help" in the app.
 
 - Log files are stored in the `logs` directory.
 - If something goes wrong, you’ll see an error message and details are available in the logs.
-
 
 ---
 
