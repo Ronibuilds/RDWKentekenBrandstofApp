@@ -9,7 +9,7 @@ rem Build exe
 pyinstaller rdw_kenteken.spec
 
 rem Build installer (met volledig pad naar Inno Setup)
-"C:\Users\Roni\AppData\Local\Programs\Inno Setup 6\ISCC.exe" "setup.iss"
+"C:\Users\*\AppData\Local\Programs\Inno Setup 6\ISCC.exe" "setup.iss"
 
 echo Build complete!
 pause
